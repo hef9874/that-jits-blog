@@ -12,7 +12,7 @@ import Home from "./pages/Home";
 import Single from "./pages/Single";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import "./style.scss"
+import "../src/style.scss"
 
 const Layout = () => {
   return (
@@ -41,8 +41,16 @@ const router = createBrowserRouter([
         path: "/write",
         element: <Write />,
       },
-    ]
-  }
+    ],
+  },
+  {
+    path: "/register",
+    element: <Register />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
 ])
 
 function App() {
