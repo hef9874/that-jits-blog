@@ -11,7 +11,7 @@ const Register = () => {
             <input required type="password" placeholder="password" />
             <button>Register</button>
             <p>This is an error!</p>
-            <span>Do you have an account? <Link to="/login">Login</Link></span>
+            <span>Do you have an account? <Link to="/register">Login</Link></span>
         </form>
         </div>
     )

@@ -1,8 +1,25 @@
-.app{
+$salmon: rgb(250, 180, 114);
 
-    $salmon: rgb(250, 180, 114);
+
+.app{
+    display:flex;
+    justify-content: center;
+ 
 
     .container{
+        width: 100%;
+
+        .link{
+            text-decoration: none;
+            color: inherit;
+            padding: 20px;
+
+        }
+
+        img{
+            align-self: center;
+        }
+    
         //login and register
         .auth{
             display: flex;
@@ -53,7 +70,22 @@
             font-size: 12px;
             text-align: center;
         }
+        .navbar{
+            .container{
+                padding: 10px 0px;
+                display: flex; 
+                justify-content: space-between;
+                .logo{
+                }
+                .links{
+                    display:flex;
+                    gap: 10px;
+                }
+            }
+        }
+
     }
+
 
 
 }
