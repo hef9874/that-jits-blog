@@ -6,14 +6,14 @@ const Home = () => {
         {
             id: 1,
             title: "Armbars and Headlocks",
-            desc: "The best submissions for submitting the your enemies!!!",
-            img: "https://picsum.photos/550/300"
+            desc: "The best submissions for submitting your enemies!!!",
+            img: "https://picsum.photos/400/300"
         },
         {   
-            id: 1,
+            id: 2,
             title: "Fun Takedowns",
             desc: "Checkout these new takedowns I learned the other day.",
-            img: "https://picsum.photos/550/300"
+            img: "https://picsum.photos/400/300"
         }
 
     ]
